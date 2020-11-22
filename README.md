@@ -12,9 +12,9 @@ The people counter application will demonstrate how to create a smart video IoT 
 
 ## How it Works
 
-The counter will use the Inference Engine included in the Intel® Distribution of OpenVINO™ Toolkit. The model used should be able to identify people in a video frame. The app should count the number of people in the current frame, the duration that a person is in the frame (time elapsed between entering and exiting a frame) and the total count of people. It then sends the data to a local web server using the Paho MQTT Python package.
+The counter uses the Inference Engine included in the Intel® Distribution of OpenVINO™ Toolkit. The model was able to identify people in a video frame. The app counst the number of people in the current frame, the duration that a person is in the frame (time elapsed between entering and exiting a frame) and the total count of people. It then sends the data to a local web server using the Paho MQTT Python package.
 
-You will choose a model to use and convert it with the Model Optimizer.
+A model is chosen to use and converted with the Model Optimizer.
 
 ![architectural diagram](./images/arch_diagram.png)
 
@@ -47,7 +47,7 @@ Utilize the classroom workspace, or refer to the relevant instructions for your 
 
 ### Install Nodejs and its dependencies
 
-Utilize the classroom workspace, or refer to the relevant instructions for your operating system for this step.
+Utilize the Udacity workspace, or refer to the relevant instructions for your operating system for this step.
 
 - [Linux/Ubuntu](./linux-setup.md)
 - [Mac](./mac-setup.md)
